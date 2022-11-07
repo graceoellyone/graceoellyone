@@ -1,0 +1,137 @@
+Logic Operators practice
+
+
+const person = {
+
+name = 'Monique',
+
+likes = 'spaghetti',
+
+age = '36',
+
+
+}
+console.log(person.name === 'Monique' && person.age === 36); 
+
+console.log(person.name === 'Monique' && person.age === 10);
+
+console.log(person.name === 'Monique' && person.age === 35);
+
+// Logic OR ||
+
+const person = {
+
+name = 'Peter',
+
+likes = 'spaghetti',
+
+age = '36',
+
+}
+console.log(person.name === 'Peter' || person.age === 36); //true
+
+console.log(person.name === 'Peter'  || person.age === 10); //false
+
+
+//Conditional Logic
+// IF Statements
+
+const iAmAQueen = true
+
+if (iAmAQueen) {
+
+    console.log('yes, I am a Queen');
+}
+
+
+cost person = {
+
+name = "Monique",
+
+likes = "spaghetti",
+
+age = "36", 
+
+}
+
+if (person.age > 19) {
+    
+    console.log("This person is over 19 years old");
+
+}
+
+else if (person.age >= 13 && person.age <= 19) 
+{
+        console.log("This person is a teenager."){
+
+       else {
+        
+        console.log("This person is a child.")
+
+
+       }   
+        }
+
+}
+
+
+ function getGrade (total){
+
+let grade = "Fail";
+
+if(total === 10) {
+
+    grade = "A+";
+} else if(total === 9) {
+
+    grade = "A";
+
+    }else if(total === 8) {
+
+    grade = "B";
+
+    } elseif(total === 7) {
+
+    grade = "C";
+
+    }else if(total === 6) {
+
+    grade = "D";
+
+    }else if(total === 5) {
+
+    grade = "E";
+
+    }  function getGrade (total){
+
+let grade = "Fail";
+
+if(total === 10) {
+
+    grade = "A+";
+} elseif(total === 9) {
+
+    grade = "A";
+
+    }elseif(total === 8) {
+
+    grade = "B";
+
+    } elseif(total === 7) {
+
+    grade = "C";
+
+    }elseif(total === 6) {
+
+    grade = "D";
+
+    }elseif(total === 5) {
+
+    grade = "E";
+
+    } else {
+
+      grade = "Fail";  
+    }
+
+console.log("Grade is " + grade);
